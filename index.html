@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<script type="text/javascript">
+// Audio player
+
+    // Songs listed in an array. 
+    
+    // let songs = ["Let It Be.mp3", "Get Down.mp3", "Funky Town.mp3", "Sugar Bee.mp3"]
+
+    /* function playButton() {
+        console.log("The play button is pressed");
+    }
+
+    function fastForward() {
+        console.log("Fast forward button is pressed")
+    }
+
+    function rewind(){
+        console.log("Rewind button is pressed")
+    } */
+
+// Video Player
+
+    /* Videos listed in an array
+    let videos = ["How to code.avi", "Getting close to nature.avi", "Supernova Documentary.avi", "Spice Girls Musicvideo compilation.avi"] 
+
+    // play button function on the video player 
+    const playButtonVideo
+
+    // fast forward function on the video player
+    const fastForwardVideo
+
+    // rewind function on the video player
+    const rewindVideo */
+
+// User input
+
+/*
+    function userChoice(choice){
+        if (choice == 'play') {
+            return playButton();
+        } else if (choice == 'fast forward'){
+            return fastForward();
+        } else if (choice == 'rewind') {
+            return rewind();
+        } else {
+            return ('Error!');
+        }
+    } 
+*/
+
+/* invoke of the function above.
+    userChoice(prompt("play, fast forward or rewind"));
+*/
+    // I could also use an empty variable to pass in a function like this
+
+     //userChoice('fast forward')
+
+    // and simply manually write the global function that is set at the top.
+
+// another example is using the switch case method which is a much cleaner code instead of using the IF and DO method
+
+   /* switch (userChoice){
+        case 0:
+            userChoice = 'play';
+            break;
+        case 1:
+            userChoice = 'fast forward';
+            break;
+        case 2:
+            userChoice = 'rewind';
+            break;    
+    };
+
+    console.log(`The ${userChoice} button has been pressed`);
+*/
+
+// the easiest and cleanest alternativ in my opinion.
+
+let play = "play";
+let fastForward = "fast forward";
+let rewind = "rewind";
+
+// this is the function that sends feedback to the console
+function userAction(choice){
+    console.log(`the ${choice} button has been pressed`)
+};
+
+// this is calling the function, here you can pass in your action
+userAction();
+</script>
